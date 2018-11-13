@@ -1,13 +1,12 @@
 {
-  "name": "notores-cli",
+  "name": "notores",
   "version": "0.1.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "GNU",
+  "license": "GPL-3.0",
   "dependencies": {
     "commander": "^2.17.0",
     "ejs": "^2.6.1"
@@ -15,5 +14,15 @@
   "preferGlobal": true,
   "bin": {
     "notores": "./index.js"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geexteam/notores-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Geexteam/notores-cli/issues"
+  },
+  "homepage": "https://github.com/Geexteam/notores-cli#readme",
+  "description": "CLI for development in Notores framework"
 }
