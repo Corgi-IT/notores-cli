@@ -1,0 +1,6 @@
+{
+  "name": "<%- name %>",
+  "route": "/<%- name %>",
+  "main": "index"
+}
+
